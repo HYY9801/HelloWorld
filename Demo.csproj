@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AForge" Version="2.2.5" />
+    <PackageReference Include="AForge.Controls" Version="2.2.5" />
+    <PackageReference Include="AForge.Core" Version="1.0.0" />
+    <PackageReference Include="AForge.Genetic" Version="2.2.5" />
+    <PackageReference Include="AForge.Imaging" Version="2.2.5" />
+    <PackageReference Include="AForge.Math" Version="2.2.5" />
+    <PackageReference Include="AForge.NetStandard" Version="2.2.6.1" />
+    <PackageReference Include="AForge.Neuro" Version="2.2.5" />
+    <PackageReference Include="AForge.Video" Version="2.2.5" />
+    <PackageReference Include="AForge.Video.DirectShow" Version="2.2.5" />
+    <PackageReference Include="AForge.Vision" Version="2.2.5" />
+    <PackageReference Include="AForgeCore.Imaging" Version="1.0.0" />
+    <PackageReference Include="AForgeCore.Imaging.Formats" Version="1.0.0" />
+    <PackageReference Include="AForgeCore.Math" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DrawShapeControl">
+      <HintPath>bin\Debug\DrawShapeControl.dll</HintPath>
+    </Reference>
+    <Reference Include="halcondotnet">
+      <HintPath>..\..\halcon 22.11\MVTe\HALCON-22.11-Steady\bin\dotnet35\halcondotnet.dll</HintPath>
+    </Reference>
+    <Reference Include="MvCameraControl.Net">
+      <HintPath>bin\Debug\MvCameraControl.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MVSDK">
+      <HintPath>bin\Debug\MVSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="PublicOperation">
+      <HintPath>bin\Debug\PublicOperation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
